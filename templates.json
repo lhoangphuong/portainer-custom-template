@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Pgadmin4",
+    "description": "Open Source administration and development platform for PostgreSQL",
+    "categories": ["database"],
+    "platform": "linux",
+    "logo": "https://benjaminberhault.com/images/pgadmin.png",
+    "image": "dpage/pgadmin4",
+    "ports": [
+      "8081:80/tcp"
+    ],
+    "volumes": ["/usr/src/redmine/files"]
+    "env": [
+      {
+        "name": "PGADMIN_DEFAULT_EMAIL",
+        "description": "Default usert."
+      },
+      {
+        "name": "PGADMIN_DEFAULT_PASSWORD",
+        "description": "Password used by default."
+      }
+    ]
+  },
+  
+  {
+    "title": "Gitlab",
+    "description": "Open-source project management tool",
+    "categories": ["project-management"],
+    "platform": "linux",
+    "logo": "https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png",
+    "image": "redmine:latest",
+    "ports": [
+      "3000/tcp"
+    ],
+    "volumes": ["/usr/src/redmine/files"]
+  },
+  
+  {
+    "title": "Elasticsearch",
+    "description": "Open-source search and analytics engine",
+    "categories": ["database"],
+    "platform": "linux",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Elasticsearch_logo.svg/800px-Elasticsearch_logo.svg.png",
+    "image": "elasticsearch:latest",
+    "ports": [
+      "9200/tcp",
+      "9300/tcp"
+    ],
+    "volumes": ["/usr/share/elasticsearch/data"]
+  }
+
+]
