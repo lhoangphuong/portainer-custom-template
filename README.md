@@ -6,9 +6,10 @@
 
 ## Ways to create your own templates
 1. Create JSON file where you can describe your templates. 
-  How to write this file you can find here: https://portainer.readthedocs.io/en/latest/templates.html
+  how to write this file you can find here: https://portainer.readthedocs.io/en/latest/templates.html
 2. Upload this file in GitHub for example so that you can access it with URL
-3. Example templares.json you can find here: https://raw.githubusercontent.com/lhoangphuong/portainer-custom-template/main/templates.json
+3. Example templares.json 
+  you can find here: https://raw.githubusercontent.com/lhoangphuong/portainer-custom-template/main/templates.json
 
 ### Using the settings section in Portainer UI 
 * **Starting Portainer:**
