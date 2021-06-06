@@ -12,7 +12,6 @@
   You can find here: https://raw.githubusercontent.com/lhoangphuong/portainer-custom-template/main/templates.json
 
 ### Using the settings section in Portainer UI 
-* **Starting Portainer:**
 1. docker run -d -p 9000:9000 -p 8000:8000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 2. access Portainer by pointing your web browser at http://DOCKER_HOST:9000
 3. in portainer UI you go in Settings and write URL with your templates
@@ -21,9 +20,7 @@
 </p>
 
 ### Using --templates flag 
-* **Starting Portainer:**
-docker run -d -p 9000:9000 -p 8000:8000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer --templates http://my-host.my-domain/templates.json
-
-On the place of  http://my-host.my-domain/templates.json you should write URL with your JSON file. 
+1. docker run -d -p 9000:9000 -p 8000:8000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer --templates http://my-host.my-domain/templates.json
+2. On the place of  http://my-host.my-domain/templates.json you should write URL with your JSON file. 
 This way of adding your templates in portainer works without going to settings in portainer UI.
 Documentation about it you find here: https://portainer.readthedocs.io/en/latest/configuration.html#use-your-own-templates 
