@@ -5,11 +5,9 @@
 * [Documentation](https://portainer.readthedocs.io)
 
 ## Ways to create your own templates
-1. Create JSON file where you can describe your templates.
-  https://portainer.readthedocs.io/en/latest/templates.html
-3. Upload this file in GitHub for example so that you can access it with URL
-4. Example templares.json.
-  You can find here: https://raw.githubusercontent.com/lhoangphuong/portainer-custom-template/main/templates.json
+1. Create JSON file where you can describe your template: https://portainer.readthedocs.io/en/latest/templates.html
+2. Upload this file in GitHub for example so that you can access it with URL
+3. Example templares.json here: https://raw.githubusercontent.com/lhoangphuong/portainer-custom-template/main/templates.json
 
 ### Using the settings section in Portainer UI 
 1. docker run -d -p 9000:9000 -p 8000:8000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
