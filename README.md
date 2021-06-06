@@ -14,7 +14,7 @@
 2. access Portainer by pointing your web browser at http://DOCKER_HOST:9000
 3. in portainer UI you go in Settings and write URL with your templates
 <p align="center">
-  <img title="portainer" src='https://raw.githubusercontent.com/lhoangphuong/portainer-custom-template/main/CAPTURE.png' />
+  <img title="portainer" src='https://raw.githubusercontent.com/lhoangphuong/portainer-custom-template/main/Capture.PNG' />
 </p>
 
 ### Using --templates flag 
