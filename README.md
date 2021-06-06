@@ -11,7 +11,7 @@
 
 ### Using the settings section in Portainer UI 
 * **Starting Portainer:**
-1. docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+1. docker run -d -p 9000:9000 -p 8000:8000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 2. access Portainer by pointing your web browser at http://DOCKER_HOST:9000
 
 ### Using --templates flag 
