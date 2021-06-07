@@ -25,5 +25,5 @@ Documentation about it you find here: https://portainer.readthedocs.io/en/latest
 
 ## Result
 <p align="center">
-  <img title="portainer" src='https://raw.githubusercontent.com/lhoangphuong/portainer-custom-template/main/Capture.PNG' />
+  <img title="portainer" src='https://raw.githubusercontent.com/lhoangphuong/portainer-custom-template/main/image.png' />
 </p>
