@@ -1203,7 +1203,7 @@
                 },
                 {
                     "name": "PGADMIN_DEFAULT_PASSWORD",
-                    "default": "password"
+                    "default": "SuperSecret!"
                 },
                 {
                     "name": "PGADMIN_CONFIG_SERVER_MODE",
