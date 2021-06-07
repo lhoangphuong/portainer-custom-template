@@ -1244,6 +1244,25 @@
                     "container": "/var/jenkins_home"
                 }
             ]
+        },
+        {
+            "type": 1,
+            "title": "Grafana",
+            "description": "The open observability platform",
+            "categories": [
+                "A-custom"
+            ],
+            "platform": "linux",
+            "logo": "https://p.kindpng.com/picc/s/715-7156771_grafana-png-grafana-logo-transparent-png.png",
+            "image": "grafana/grafana",
+            "ports": [
+                "3000:3000/tcp"
+            ],
+            "volumes": [
+                {   "bind": "grafana-data",
+                    "container": "/var/lib/grafana"
+                }
+            ]
         }
     ]
 }
