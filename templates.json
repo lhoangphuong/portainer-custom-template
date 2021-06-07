@@ -1092,7 +1092,7 @@
 				{
 					"name": "PGADMIN_DEFAULT_PASSWORD",
 					"default": "password",
-				}
+				},
 				{
 					"name": "PGADMIN_CONFIG_SERVER_MODE",
 					"default": "false",
