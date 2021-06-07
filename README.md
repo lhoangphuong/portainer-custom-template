@@ -21,4 +21,9 @@
 1. docker run -d -p 9000:9000 -p 8000:8000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer --templates http://my-host.my-domain/templates.json
 2. On the place of  http://my-host.my-domain/templates.json you should write URL with your JSON file. 
 This way of adding your templates in portainer works without going to settings in portainer UI.
-Documentation about it you find here: https://portainer.readthedocs.io/en/latest/configuration.html#use-your-own-templates 
+Documentation about it you find here: https://portainer.readthedocs.io/en/latest/configuration.html#use-your-own-templates
+
+## Result
+<p align="center">
+  <img title="portainer" src='https://raw.githubusercontent.com/lhoangphuong/portainer-custom-template/main/Capture.PNG' />
+</p>
