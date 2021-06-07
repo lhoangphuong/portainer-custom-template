@@ -1208,7 +1208,7 @@
                 },
                 {
                     "name": "PGADMIN_CONFIG_SERVER_MODE",
-                    "label": "server or desktop mode",
+                    "label": "server or desktop mode (False mean using Desktop mode)",
                     "default": "False"
                 }
             ],
