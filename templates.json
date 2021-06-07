@@ -1063,11 +1063,11 @@
 				"3128:3128/tcp"
 			],
 			"volumes": [{
-					"host": "squid-cache",
+					"bind": "squid-cache",
 					"container": "/var/spool/squid"
 				},
 				{
-					"host": "squid-log",
+					"bind": "squid-log",
 					"container": "/var/log/squid"
 				}
 			]
