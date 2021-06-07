@@ -1199,18 +1199,15 @@
             "env": [
                 {
                     "name": "PGADMIN_DEFAULT_EMAIL",
-                    "label": "username",
-                    "default": "user@domain.com"
+                    "label": "username"
                 },
                 {
                     "name": "PGADMIN_DEFAULT_PASSWORD",
-                    "label": "password",
-                    "default": "SuperSecret!"
+                    "label": "password"
                 },
                 {
                     "name": "PGADMIN_CONFIG_SERVER_MODE",
-                    "label": "server_or_desktop_mode",
-                    "default": "false"
+                    "label": "false"
                 }
             ],
             "volumes": [
