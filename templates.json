@@ -1199,14 +1199,16 @@
             "env": [
                 {
                     "name": "PGADMIN_DEFAULT_EMAIL",
-                    "default": "user@domain.com"
+                    "label": "username"
                 },
                 {
                     "name": "PGADMIN_DEFAULT_PASSWORD",
+                    "label": "password"
                     "default": "SuperSecret!"
                 },
                 {
                     "name": "PGADMIN_CONFIG_SERVER_MODE",
+                    "label": "server_or_desktop_mode"
                     "default": "false"
                 }
             ],
