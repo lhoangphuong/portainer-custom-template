@@ -1072,6 +1072,38 @@
 				}
 			]
 		},
+		{
+			"type": 1,
+			"title": "Pgadmin 4",
+			"description": "Open Source management tool for Postgres DB",
+			"categories": [
+				"A-custom"
+			],
+			"platform": "linux",
+			"logo": "https://benjaminberhault.com/images/pgadmin.png",
+			"image": "dpage/pgadmin4:latest",
+			"ports": [
+				"8081:80/tcp"
+			],
+			"env": [{
+					"name": "PGADMIN_DEFAULT_EMAIL",
+					"default": "user@domain.com",
+				},
+				{
+					"name": "PGADMIN_DEFAULT_PASSWORD",
+					"default": "password",
+				}
+				{
+					"name": "PGADMIN_CONFIG_SERVER_MODE",
+					"default": "false",
+				}
+			],
+			"volumes": [{
+					"bind": "pgadmin-data",
+					"container": "/var/lib/pgadmin"
+				}
+			]
+		},
 		      
 		{
 	    "type": 4,
