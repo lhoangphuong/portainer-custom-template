@@ -1207,7 +1207,7 @@
                 },
                 {
                     "name": "PGADMIN_CONFIG_SERVER_MODE",
-                    "label": "false"
+                    "label": "server or desktop mode"
                 }
             ],
             "volumes": [
